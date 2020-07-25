@@ -48,12 +48,11 @@ body{overflow-x:hidden;font-family:'Roboto Slab',-apple-system,BlinkMacSystemFon
     background-position:center center;
     background-size:cover
 }
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 #mainNav{
   background-color: rgb(65, 65, 65);
 }
 .navbarBrand{
-  font-family:'Pattaya', sans-serif;
+    font-family: 'Pattaya', sans-serif;
   font-size: 40px;
   color: #ffc107;
 }
@@ -63,6 +62,13 @@ body{overflow-x:hidden;font-family:'Roboto Slab',-apple-system,BlinkMacSystemFon
 .navbar{
     background: rgb(65, 65, 65);  
     height:60px;
+}
+.btn{
+    background-color: #ffc107;
+    border:#9e7700 ;
+}
+.btn:hover{
+    background-color: #ffdd6e;
 }
 .intro-lead-in{
   border-radius: 5px;
